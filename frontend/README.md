@@ -1,44 +1,36 @@
-# Places API (Spring Boot)
+# React Google Places Search
 
 ## Technologies
 
-- Java 21
-- Spring Boot
-- Spring Data JPA
-- MySQL
-- Maven
-- Swagger (OpenAPI)
+- React (Vite)
+- Redux Toolkit
+- Redux Thunk
+- Axios
+- Material UI
 
 ## Features
 
-- Add Favourite Place
-- Get Favourite Places
-- Delete Favourite Place
-- REST APIs
-- Swagger UI
+- Search Place
+- Search History
+- Add Favourite
+- View Favourite Places
+- Delete Favourite
 
 ## Run
 
 ```bash
-mvn spring-boot:run
+npm install
+npm run dev
 ```
 
-Swagger UI
+Frontend
 
 ```
-http://localhost:8080/swagger-ui/index.html
+http://localhost:5173
 ```
 
-## Database
-
-Database
+Backend
 
 ```
-placesdb
-```
-
-Table
-
-```
-favorite_places
+http://localhost:8080
 ```
